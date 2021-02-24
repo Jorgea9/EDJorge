@@ -5,6 +5,12 @@ public class Mascota {
 	private String nombre;
 	private String color;
 	private int id;
+	public Mascota(String nombre, String color, int id) {
+		super();
+		this.nombre = nombre;
+		this.color = color;
+		this.id = id;
+	}
 	public String getNombre() {
 		return nombre;
 	}
