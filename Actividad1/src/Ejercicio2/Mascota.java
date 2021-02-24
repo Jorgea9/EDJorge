@@ -23,6 +23,10 @@ public class Mascota {
 	public void setId(int id) {
 		this.id = id;
 	}
+	@Override
+	public String toString() {
+		return "Mascota [nombre=" + nombre + ", color=" + color + ", id=" + id + "]";
+	}
 	
 	
 }
