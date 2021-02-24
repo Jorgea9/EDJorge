@@ -4,6 +4,12 @@ public class Videojuego {
 	private int id;
 	private String nombre;
 	private String compañia;
+	public Videojuego(int id, String nombre, String compañia) {
+		super();
+		this.id = id; 
+		this.nombre = nombre;
+		this.compañia = compañia;
+	}
 	public int getId() {
 		return id;
 	}
