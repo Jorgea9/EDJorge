@@ -1,11 +1,14 @@
 package Ejercicio1;
 
+
 public class Coche {
 
+	private Motor motor;
 	private int id;
 	private String matricula;
 	private String modelo;
 	private String marca;
+	
 	
 	public Coche(int id, String matricula, String modelo, String marca) {
 		super();
@@ -45,6 +48,14 @@ public class Coche {
 
 	public void setMarca(String marca) {
 		this.marca = marca;
+	}
+
+	public Motor getMotor() {
+		return motor;
+	}
+
+	public void setMotor(Motor motor) {
+		this.motor = motor;
 	}
 	
 	
